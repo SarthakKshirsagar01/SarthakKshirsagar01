@@ -1,86 +1,72 @@
-# Hey, I'm Sarthak 👋
+# Sarthak Kshirsagar
 
-**BSc Blockchain Technology · Pune · building in Web3.**  
-I ship real contracts, real dApps, real CI/CD — on Stellar Testnet. Not demos. Not forks.  
-Currently **Level 5 Blue Belt** — Stellar Journey to Mastery. Open to Web3 internships.
-
-![Rust](https://img.shields.io/badge/Rust-B7410E?style=flat&logo=rust&logoColor=white)
-![Stellar](https://img.shields.io/badge/Stellar-0D0D0D?style=flat&logo=stellar&logoColor=white)
-![Soroban](https://img.shields.io/badge/Soroban-7F77DD?style=flat)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-6366F1?style=flat&logo=solidity&logoColor=white)
-![Open to Work](https://img.shields.io/badge/Open_to_Web3_Internships-22c55e?style=flat)
+**Blockchain Developer · Pune, India · BSc Blockchain Technology**
 
 ---
 
-## 🔨 Projects
+I build production-grade blockchain applications on the Stellar network. My work spans smart contract architecture in Rust, full-stack dApp development, CI/CD pipelines, and user-validated product iteration. Every project on this profile is deployed to Stellar Testnet and passes a defined test suite before commit.
 
-### [NexuraProtocol](https://github.com/SarthakKshirsagar01/NexuraProtocol) · [Live Demo](https://nexura-protocol.vercel.app) · `Testnet`
-Blockchain escrow invoicing system solving the SME liquidity gap on Stellar.  
-3 deployed Soroban contracts: InvoiceFactory · EscrowVault · OracleVerifier (2-of-3 multisig).  
-5 real users completed full invoice flow on Testnet. User feedback collected and iterated.
+**Focus:** Stellar · Soroban · Rust &nbsp;&nbsp; **Level:** L5 Blue Belt &nbsp;&nbsp; **Status:** Open to Web3 internships
+
+---
+
+## Projects
+
+### [NexuraProtocol](https://github.com/SarthakKshirsagar01/NexuraProtocol) &nbsp; · &nbsp; [Live](https://nexura-protocol.vercel.app) &nbsp; · &nbsp; `Stellar Testnet`
+
+Escrow invoicing protocol solving SME payment delays on Stellar. Three deployed Soroban contracts — InvoiceFactory, EscrowVault, OracleVerifier — with 2-of-3 multisig delivery confirmation. Validated with 5 real users; feedback iterated to 100% task completion.
 
 `Rust` `Soroban` `Next.js 15` `TypeScript` `TailwindCSS` `Freighter` `Vercel`
 
-### [stellar-split-app](https://github.com/SarthakKshirsagar01/stellar-split-app) · [Live Demo](https://stellar-split-app.vercel.app) · `Testnet`
-Decentralized bill-splitting dApp with real XLM transfers via Soroban inter-contract calls.  
-Custom SPLIT token contract · GitHub Actions CI/CD · 5 passing tests (cancel, double-pay, auto-release, transfer).
+---
+
+### [stellar-split-app](https://github.com/SarthakKshirsagar01/stellar-split-app) &nbsp; · &nbsp; [Live](https://stellar-split-app.vercel.app) &nbsp; · &nbsp; `Stellar Testnet`
+
+Decentralised bill-splitting dApp with real XLM transfers via Soroban inter-contract calls. Custom SPLIT token contract in Rust. GitHub Actions CI/CD pipeline. Five passing contract tests including double-payment rejection and auto-release.
 
 `Rust` `Soroban` `React.js` `Vite` `Freighter API v6` `GitHub Actions`
 
+---
+
 ### [ZK_KYC](https://github.com/SarthakKshirsagar01/ZK_KYC)
-Privacy-preserving KYC using blockchain and zero-knowledge inspired proofs.  
-Identity verification without exposing raw personal data on-chain.
+
+Privacy-preserving identity verification using blockchain and zero-knowledge inspired proofs. Validates credentials without exposing raw personal data on-chain.
 
 `ZK Proofs` `Blockchain` `Privacy`
 
-### [Smart-Contract](https://github.com/SarthakKshirsagar01/Smart-Contract) (Solidity)
-Multi-bidder auction with token-based bidding and verifiable random winner selection — fully on-chain fairness.
+---
 
-`Solidity` `EVM` `Auction` `Randomness`
+### [Smart-Contract — Auction](https://github.com/SarthakKshirsagar01/Smart-Contract)
+
+Multi-bidder token auction on EVM with verifiable random winner selection. All bidding, registration, and resolution logic enforced on-chain.
+
+`Solidity` `EVM` `Randomness`
 
 ---
 
-## 🏅 Stellar Journey to Mastery
+## Stellar Journey to Mastery
 
-| Level | Belt | Project | Status |
-|-------|------|---------|--------|
-| Level 1 | ⬜ White | Stellar basics — accounts, transactions, Testnet | ✅ |
-| Level 2 | 🟡 Yellow | First Soroban contract, deployment pipeline | ✅ |
-| Level 3 | 🟠 Orange | Voting dApp — 5 fns, 9 tests, React frontend | ✅ |
-| Level 4 | 🟢 Green | Stellar Split — XLM transfers, custom token, CI/CD | ✅ |
-| Level 5 | 🔵 Blue | NexuraProtocol — 3 contracts, oracle multisig, 5-user validation | ✅ |
+| Level | Project | Notes | |
+|-------|---------|-------|--|
+| L1 White | Stellar fundamentals | Accounts · transactions · Testnet | ✓ |
+| L2 Yellow | First Soroban contract | Deployment pipeline | ✓ |
+| L3 Orange | Voting dApp | 5 contract functions · 9 tests · React frontend | ✓ |
+| L4 Green | Stellar Split | XLM transfers · custom token · CI/CD | ✓ |
+| L5 Blue | NexuraProtocol | 3-contract escrow · oracle multisig · user validation | ✓ |
 
 ---
 
-## 🧰 Stack
+## Technical Stack
 
 ```
-Blockchain  : Stellar · Soroban · Rust · Solidity · ZK Proofs
-Frontend    : React.js · Next.js 15 · TypeScript · Vite · TailwindCSS
-Web3        : Freighter Wallet · Stellar SDK · soroban-sdk v21 · Inter-contract calls
-DevOps      : GitHub Actions · Vercel · Stellar CLI · Testnet
+Rust · Soroban SDK v21 · Stellar SDK · Solidity · TypeScript · React.js
+Next.js 15 · Vite · TailwindCSS · Freighter API v6 · GitHub Actions · Vercel · Stellar CLI · ZK Proofs
 ```
 
 ---
 
-## 🐛 Bugs I've killed (real ones)
+## Contact
 
-- Soroban `no_std` conflict blocking inline test compilation
-- Freighter API v6 renamed connection methods — silent break, no error thrown
-- Tailwind v4 / Vite v8 PostCSS incompatibility on fresh installs
-- GitHub Actions CI failure from case-sensitive Linux path in Cargo.toml
-- Testnet 400 error — XLM transfer to unfunded destination account
-- Overflow on token arithmetic in EscrowVault — fixed with `checked_mul`
-- Freighter Testnet setup confusion (3/5 users) → resolved with contextual tooltip, 0 failures in round 2
+LinkedIn: [sarthak-kshirsagar-934a39321](https://www.linkedin.com/in/sarthak-kshirsagar-934a39321/)
 
----
-
-## 📬 Connect
-
-- LinkedIn: [sarthak-kshirsagar-934a39321](https://www.linkedin.com/in/sarthak-kshirsagar-934a39321/)
-- Open to: **Blockchain Intern · Smart Contract Developer · Web3 Developer**
-
----
-
-*Stellar Journey to Mastery — Monthly Builder Challenges*
+Available for blockchain internships, smart contract roles, and Web3 developer positions.
